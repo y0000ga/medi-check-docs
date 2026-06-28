@@ -1,0 +1,174 @@
+{
+  "global": {
+    "colors": {
+      "surface": {
+        "DEFAULT": { "value": "#F7F9FB", "type": "color" },
+        "dim": { "value": "#D8DADC", "type": "color" },
+        "bright": { "value": "#F7F9FB", "type": "color" },
+        "container": {
+          "lowest": { "value": "#FFFFFF", "type": "color" },
+          "low": { "value": "#F2F4F6", "type": "color" },
+          "DEFAULT": { "value": "#ECEEF0", "type": "color" },
+          "high": { "value": "#E6E8EA", "type": "color" },
+          "highest": { "value": "#E0E3E5", "type": "color" }
+        },
+        "tint": { "value": "#006492", "type": "color" },
+        "variant": { "value": "#E0E3E5", "type": "color" }
+      },
+      "on-surface": {
+        "DEFAULT": { "value": "#191C1E", "type": "color" },
+        "variant": { "value": "#3F4850", "type": "color" }
+      },
+      "inverse": {
+        "surface": { "value": "#2D3133", "type": "color" },
+        "on-surface": { "value": "#EFF1F3", "type": "color" },
+        "primary": { "value": "#8CCDFF", "type": "color" }
+      },
+      "outline": {
+        "DEFAULT": { "value": "#6F7881", "type": "color" },
+        "variant": { "value": "#BEC7D1", "type": "color" }
+      },
+      "primary": {
+        "DEFAULT": { "value": "#006492", "type": "color" },
+        "container": { "value": "#2D9CDB", "type": "color" },
+        "fixed": { "value": "#CAE6FF", "type": "color" },
+        "fixed-dim": { "value": "#8CCDFF", "type": "color" }
+      },
+      "on-primary": {
+        "DEFAULT": { "value": "#FFFFFF", "type": "color" },
+        "container": { "value": "#003049", "type": "color" },
+        "fixed": { "value": "#001E2F", "type": "color" },
+        "fixed-variant": { "value": "#004B6F", "type": "color" }
+      },
+      "secondary": {
+        "DEFAULT": { "value": "#49607C", "type": "color" },
+        "container": { "value": "#C7DFFF", "type": "color" },
+        "fixed": { "value": "#D1E4FF", "type": "color" },
+        "fixed-dim": { "value": "#B0C9E8", "type": "color" }
+      },
+      "on-secondary": {
+        "DEFAULT": { "value": "#FFFFFF", "type": "color" },
+        "container": { "value": "#4B637E", "type": "color" },
+        "fixed": { "value": "#011D35", "type": "color" },
+        "fixed-variant": { "value": "#314863", "type": "color" }
+      },
+      "tertiary": {
+        "DEFAULT": { "value": "#4A6364", "type": "color" },
+        "container": { "value": "#7F9899", "type": "color" },
+        "fixed": { "value": "#CDE8E9", "type": "color" },
+        "fixed-dim": { "value": "#B1CBCD", "type": "color" }
+      },
+      "on-tertiary": {
+        "DEFAULT": { "value": "#FFFFFF", "type": "color" },
+        "container": { "value": "#183031", "type": "color" },
+        "fixed": { "value": "#051F20", "type": "color" },
+        "fixed-variant": { "value": "#334B4C", "type": "color" }
+      },
+      "error": {
+        "DEFAULT": { "value": "#BA1A1A", "type": "color" },
+        "container": { "value": "#FFDAD6", "type": "color" }
+      },
+      "on-error": {
+        "DEFAULT": { "value": "#FFFFFF", "type": "color" },
+        "container": { "value": "#93000A", "type": "color" }
+      },
+      "background": { "value": "#F7F9FB", "type": "color" },
+      "on-background": { "value": "#191C1E", "type": "color" },
+      "status": {
+        "pending": { "value": "#006492", "type": "color" },
+        "pending-bg": { "value": "#CAE6FF", "type": "color" },
+        "taken": { "value": "#2D6A4F", "type": "color" },
+        "taken-bg": { "value": "#D8F3DC", "type": "color" },
+        "overdue": { "value": "#BA1A1A", "type": "color" },
+        "overdue-bg": { "value": "#FFDAD6", "type": "color" }
+      }
+    },
+    "spacing": {
+      "unit": { "value": "4", "type": "spacing" },
+      "gutter": { "value": "12", "type": "spacing" },
+      "stack-gap": { "value": "16", "type": "spacing" },
+      "container-padding": { "value": "20", "type": "spacing" },
+      "section-gap": { "value": "32", "type": "spacing" }
+    },
+    "borderRadius": {
+      "sm": { "value": "4", "type": "borderRadius" },
+      "DEFAULT": { "value": "8", "type": "borderRadius" },
+      "md": { "value": "12", "type": "borderRadius" },
+      "lg": { "value": "16", "type": "borderRadius" },
+      "xl": { "value": "24", "type": "borderRadius" },
+      "full": { "value": "9999", "type": "borderRadius" }
+    },
+    "typography": {
+      "headline-lg": {
+        "value": {
+          "fontFamily": "Be Vietnam Pro",
+          "fontWeight": "700",
+          "fontSize": "30",
+          "lineHeight": "38",
+          "letterSpacing": "-0.02em"
+        },
+        "type": "typography"
+      },
+      "headline-lg-mobile": {
+        "value": {
+          "fontFamily": "Be Vietnam Pro",
+          "fontWeight": "700",
+          "fontSize": "24",
+          "lineHeight": "30",
+          "letterSpacing": "-0.01em"
+        },
+        "type": "typography"
+      },
+      "headline-md": {
+        "value": {
+          "fontFamily": "Be Vietnam Pro",
+          "fontWeight": "600",
+          "fontSize": "20",
+          "lineHeight": "28",
+          "letterSpacing": "0"
+        },
+        "type": "typography"
+      },
+      "body-lg": {
+        "value": {
+          "fontFamily": "Be Vietnam Pro",
+          "fontWeight": "400",
+          "fontSize": "18",
+          "lineHeight": "26",
+          "letterSpacing": "0"
+        },
+        "type": "typography"
+      },
+      "body-md": {
+        "value": {
+          "fontFamily": "Be Vietnam Pro",
+          "fontWeight": "400",
+          "fontSize": "16",
+          "lineHeight": "24",
+          "letterSpacing": "0"
+        },
+        "type": "typography"
+      },
+      "label-md": {
+        "value": {
+          "fontFamily": "Be Vietnam Pro",
+          "fontWeight": "600",
+          "fontSize": "14",
+          "lineHeight": "20",
+          "letterSpacing": "0.01em"
+        },
+        "type": "typography"
+      },
+      "label-sm": {
+        "value": {
+          "fontFamily": "Be Vietnam Pro",
+          "fontWeight": "500",
+          "fontSize": "12",
+          "lineHeight": "16",
+          "letterSpacing": "0"
+        },
+        "type": "typography"
+      }
+    }
+  }
+}
