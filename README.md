@@ -8,7 +8,6 @@
 |------|------|-----------|
 | 產品規格書.md | 功能需求、頁面狀態、欄位定義 | 前端 |
 | 技術規格書.md | API 設計、資料庫、系統架構 | 後端 |
-| AGENT_CONTEXT.md | 給 code agent 的專案說明 | 前端 |
 | DESIGN.md | 設計系統規範 | 設計 / 前端 |
 | healing-touch-tokens.json | Figma design tokens | 設計 |
 
@@ -23,7 +22,6 @@ openapi.json 以後端專案為唯一來源，不在此 repo 維護。
 
 - 功能需求改變 → 更新產品規格書
 - API 設計改變 → 更新技術規格書（openapi.json 在後端專案維護）
-- 路由或元件結構改變 → 更新 AGENT_CONTEXT.md
 - 設計系統改變 → 更新 DESIGN.md
 
 ## 更新文件的流程
